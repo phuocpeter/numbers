@@ -9,7 +9,7 @@
         <!--Guide-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GuideViewController" customModule="Numbers" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,9 +17,32 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n2U-bQ-JDr">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="n2U-bQ-JDr" secondAttribute="bottom" id="1DG-mp-Gcj"/>
+                            <constraint firstItem="n2U-bQ-JDr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="DIU-NF-ddo"/>
+                            <constraint firstAttribute="trailing" secondItem="n2U-bQ-JDr" secondAttribute="trailing" id="KpR-Nj-tDo"/>
+                            <constraint firstItem="n2U-bQ-JDr" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="iCw-Nc-Dsd"/>
+                            <constraint firstItem="n2U-bQ-JDr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rlr-7h-ZZN"/>
+                            <constraint firstItem="n2U-bQ-JDr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="sJz-Cp-lEh"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="iCw-Nc-Dsd"/>
+                                <exclude reference="sJz-Cp-lEh"/>
+                            </mask>
+                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Guide" id="fjW-a1-iDU"/>
+                    <connections>
+                        <outlet property="webView" destination="n2U-bQ-JDr" id="5qv-HQ-DeO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
