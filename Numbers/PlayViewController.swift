@@ -52,17 +52,17 @@ class PlayViewController: UIViewController {
             print("The answer is \(answer) while the randomized number is \(random)")
             if answer == random {
                 // Win
-                statusLabel.text = "Bingo!!! You won with number " + "\(random)"
+                statusLabel.text = NSLocalizedString("BINGO", comment: "Bingo!!! You won with number ") + " \(random)"
                 testButton.enabled = false
                 restartButton.enabled = true
                 print("Game win")
             } else if answer > random {
                 // Too high
-                statusLabel.text = "Too high"
+                statusLabel.text = NSLocalizedString("TOO_HIGH", comment: "Too high")
                 chanceLabel.text = String(--chance)
                 // Too low
             } else {
-                statusLabel.text = "Too low"
+                statusLabel.text = NSLocalizedString("TOO_LOW", comment: "Too low")
                 chanceLabel.text = String(--chance)
             }
             if chance == 0 {
@@ -73,7 +73,7 @@ class PlayViewController: UIViewController {
         default:
             // Game end
             print("Game end")
-            statusLabel.text = "No more chance, you have lost. The number is " + "\(random)"
+            statusLabel.text = NSLocalizedString("LOSE", comment: "No more chance, you have lost. The number is ") + " \(random)"
             testButton.enabled = false
             restartButton.enabled = true
             break
@@ -93,7 +93,7 @@ class PlayViewController: UIViewController {
         second = Int(secondStepperValue.value)
         firstNum.text = String(first)
         secondNum.text = String(second)
-        statusLabel.text = "Status"
+        statusLabel.text = NSLocalizedString("STATUS", comment: "Status")
         chance = 5
         chanceLabel.text = String(chance)
     }

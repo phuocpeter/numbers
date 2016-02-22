@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "1Bm-Qy-fRo"; */
+"1Bm-Qy-fRo.text" = "0";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Pqn-IT-Tlw"; */
+"Pqn-IT-Tlw.text" = "0";
+
+/* Class = "UILabel"; text = "Chance:"; ObjectID = "QFd-Mp-Dzg"; */
+"QFd-Mp-Dzg.text" = "Cơ hội:";
+
+/* Class = "UITabBarItem"; title = "Guide"; ObjectID = "R0t-7V-i0P"; */
+"R0t-7V-i0P.title" = "Hướng dẫn";
+
+/* Class = "UIButton"; normalTitle = "Restart"; ObjectID = "TJA-aW-2Br"; */
+"TJA-aW-2Br.normalTitle" = "Chơi lại";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "cjx-hO-L8A"; */
+"cjx-hO-L8A.text" = "Thông tin";
+
+/* Class = "UINavigationItem"; title = "Guess The Number"; ObjectID = "fZi-fh-E7P"; */
+"fZi-fh-E7P.title" = "Đoán số";
+
+/* Class = "UINavigationItem"; title = "Guide"; ObjectID = "fjW-a1-iDU"; */
+"fjW-a1-iDU.title" = "Hướng dẫn";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "qgT-9r-R9O"; */
+"qgT-9r-R9O.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Test"; ObjectID = "yI5-Pc-nhX"; */
+"yI5-Pc-nhX.normalTitle" = "Thử";
+
+/* Class = "UITabBarItem"; title = "Play"; ObjectID = "ze8-HO-EQ8"; */
+"ze8-HO-EQ8.title" = "Chơi";

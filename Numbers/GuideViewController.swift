@@ -17,7 +17,7 @@ class GuideViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        let url = NSLocalizedString("Numbers Manual" , comment: "Numbers Manual")
+        let url = "Numbers Manual"
         if let htmlFile = NSBundle.mainBundle().pathForResource(url, ofType: "html") {
             if let htmlData = NSData(contentsOfFile: htmlFile) {
                 let baseUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().bundlePath)

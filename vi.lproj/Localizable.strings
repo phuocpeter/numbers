@@ -1,0 +1,15 @@
+/* Bingo!!! You won with number */
+"BINGO" = "Bingo!!! Bạn đã đoán trúng số";
+
+/* No more chance, you have lost. The number is */
+"LOSE" = "Bạn đã hết cơ hội. Số cần đoán là";
+
+/* Status */
+"STATUS" = "Thông tin";
+
+/* Too high */
+"TOO_HIGH" = "Quá cao";
+
+/* Too low */
+"TOO_LOW" = "Quá thấp";
+
