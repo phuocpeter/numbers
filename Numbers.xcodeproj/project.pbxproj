@@ -10,6 +10,7 @@
 		981668D81C7BB80800305441 /* Numbers Manual.html in Resources */ = {isa = PBXBuildFile; fileRef = 981668DA1C7BB80800305441 /* Numbers Manual.html */; };
 		981668E01C7BB96A00305441 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981668E21C7BB96A00305441 /* Localizable.strings */; };
 		981668EA1C7BBD5400305441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981668EC1C7BBD5400305441 /* InfoPlist.strings */; };
+		981668EF1C7BBF0300305441 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981668EE1C7BBF0300305441 /* Info.plist */; };
 		9836A83F1C794391000BA90F /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836A83E1C794391000BA90F /* GuideViewController.swift */; };
 		9856B83A1C753BF500D778A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856B8391C753BF500D778A8 /* AppDelegate.swift */; };
 		9856B83C1C753BF500D778A8 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856B83B1C753BF500D778A8 /* PlayViewController.swift */; };
@@ -28,6 +29,7 @@
 		981668E71C7BBD2A00305441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		981668EB1C7BBD5400305441 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		981668ED1C7BBD9A00305441 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		981668EE1C7BBF0300305441 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9836A83E1C794391000BA90F /* GuideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GuideViewController.swift; sourceTree = "<group>"; };
 		9856B8361C753BF500D778A8 /* Numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numbers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9856B8391C753BF500D778A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				981668DC1C7BB84D00305441 /* Info.plist */,
 				981668E21C7BB96A00305441 /* Localizable.strings */,
 				981668EC1C7BBD5400305441 /* InfoPlist.strings */,
+				981668EE1C7BBF0300305441 /* Info.plist */,
 			);
 			path = Numbers;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 				9856B8441C753BF500D778A8 /* LaunchScreen.storyboard in Resources */,
 				9856B8411C753BF500D778A8 /* Assets.xcassets in Resources */,
 				9856B83F1C753BF500D778A8 /* Main.storyboard in Resources */,
+				981668EF1C7BBF0300305441 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
