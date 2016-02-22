@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		981668D81C7BB80800305441 /* Numbers Manual.html in Resources */ = {isa = PBXBuildFile; fileRef = 981668DA1C7BB80800305441 /* Numbers Manual.html */; };
-		981668E01C7BB96A00305441 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981668E21C7BB96A00305441 /* Localizable.strings */; };
-		981668EA1C7BBD5400305441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981668EC1C7BBD5400305441 /* InfoPlist.strings */; };
-		981668EF1C7BBF0300305441 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981668EE1C7BBF0300305441 /* Info.plist */; };
+		981668F01C7BC11900305441 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9856B83D1C753BF500D778A8 /* Main.storyboard */; };
+		981668F11C7BC12000305441 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981668E21C7BB96A00305441 /* Localizable.strings */; };
+		981668F21C7BC12500305441 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9856B8421C753BF500D778A8 /* LaunchScreen.storyboard */; };
+		981668F31C7BC12D00305441 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 981668EC1C7BBD5400305441 /* InfoPlist.strings */; };
 		9836A83F1C794391000BA90F /* GuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9836A83E1C794391000BA90F /* GuideViewController.swift */; };
 		9856B83A1C753BF500D778A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856B8391C753BF500D778A8 /* AppDelegate.swift */; };
 		9856B83C1C753BF500D778A8 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9856B83B1C753BF500D778A8 /* PlayViewController.swift */; };
-		9856B83F1C753BF500D778A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9856B83D1C753BF500D778A8 /* Main.storyboard */; };
 		9856B8411C753BF500D778A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9856B8401C753BF500D778A8 /* Assets.xcassets */; };
-		9856B8441C753BF500D778A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9856B8421C753BF500D778A8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,13 +141,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				981668E01C7BB96A00305441 /* Localizable.strings in Resources */,
-				981668EA1C7BBD5400305441 /* InfoPlist.strings in Resources */,
+				981668F31C7BC12D00305441 /* InfoPlist.strings in Resources */,
+				981668F21C7BC12500305441 /* LaunchScreen.storyboard in Resources */,
+				981668F11C7BC12000305441 /* Localizable.strings in Resources */,
+				981668F01C7BC11900305441 /* Main.storyboard in Resources */,
 				981668D81C7BB80800305441 /* Numbers Manual.html in Resources */,
-				9856B8441C753BF500D778A8 /* LaunchScreen.storyboard in Resources */,
 				9856B8411C753BF500D778A8 /* Assets.xcassets in Resources */,
-				9856B83F1C753BF500D778A8 /* Main.storyboard in Resources */,
-				981668EF1C7BBF0300305441 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
