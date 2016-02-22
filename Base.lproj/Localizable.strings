@@ -1,0 +1,15 @@
+/* Bingo!!! You won with number */
+"BINGO" = "Bingo!!! You won with number";
+
+/* No more chance, you have lost. The number is */
+"LOSE" = "No more chance, you have lost. The number is";
+
+/* Status */
+"STATUS" = "Status";
+
+/* Too high */
+"TOO_HIGH" = "Too high";
+
+/* Too low */
+"TOO_LOW" = "Too low";
+
