@@ -59,11 +59,13 @@ class PlayViewController: UIViewController {
             } else if answer > random {
                 // Too high
                 statusLabel.text = NSLocalizedString("TOO_HIGH", comment: "Too high")
-                chanceLabel.text = String(--chance)
+                chance -= 1
+                chanceLabel.text = String(chance)
                 // Too low
             } else {
                 statusLabel.text = NSLocalizedString("TOO_LOW", comment: "Too low")
-                chanceLabel.text = String(--chance)
+                chance -= 1
+                chanceLabel.text = String(chance)
             }
             if chance == 0 {
                 // No more chance

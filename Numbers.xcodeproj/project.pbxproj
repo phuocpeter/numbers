@@ -20,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		981668D91C7BB80800305441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = en; path = "en.lproj/Numbers Manual.html"; sourceTree = "<group>"; };
-		981668DB1C7BB84D00305441 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		981668E11C7BB96A00305441 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		981668E31C7BB97D00305441 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = vi; path = "vi.lproj/Numbers Manual.html"; sourceTree = "<group>"; };
 		981668E51C7BBCAE00305441 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
@@ -67,19 +66,42 @@
 		9856B8381C753BF500D778A8 /* Numbers */ = {
 			isa = PBXGroup;
 			children = (
+				98A695E01CFE03250091FBF7 /* Classes */,
+				98A695DF1CFE03100091FBF7 /* Storyboards */,
+				98A695DE1CFE02E10091FBF7 /* Localizations */,
+				981668EE1C7BBF0300305441 /* Info.plist */,
+				9856B8401C753BF500D778A8 /* Assets.xcassets */,
+			);
+			path = Numbers;
+			sourceTree = "<group>";
+		};
+		98A695DE1CFE02E10091FBF7 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
 				981668DA1C7BB80800305441 /* Numbers Manual.html */,
+				981668E21C7BB96A00305441 /* Localizable.strings */,
+				981668EC1C7BBD5400305441 /* InfoPlist.strings */,
+			);
+			name = Localizations;
+			sourceTree = "<group>";
+		};
+		98A695DF1CFE03100091FBF7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9856B83D1C753BF500D778A8 /* Main.storyboard */,
+				9856B8421C753BF500D778A8 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		98A695E01CFE03250091FBF7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
 				9856B8391C753BF500D778A8 /* AppDelegate.swift */,
 				9836A83E1C794391000BA90F /* GuideViewController.swift */,
 				9856B83B1C753BF500D778A8 /* PlayViewController.swift */,
-				9856B83D1C753BF500D778A8 /* Main.storyboard */,
-				9856B8401C753BF500D778A8 /* Assets.xcassets */,
-				9856B8421C753BF500D778A8 /* LaunchScreen.storyboard */,
-				981668DC1C7BB84D00305441 /* Info.plist */,
-				981668E21C7BB96A00305441 /* Localizable.strings */,
-				981668EC1C7BBD5400305441 /* InfoPlist.strings */,
-				981668EE1C7BBF0300305441 /* Info.plist */,
 			);
-			path = Numbers;
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,14 +196,6 @@
 				981668E31C7BB97D00305441 /* vi */,
 			);
 			name = "Numbers Manual.html";
-			sourceTree = "<group>";
-		};
-		981668DC1C7BB84D00305441 /* Info.plist */ = {
-			isa = PBXVariantGroup;
-			children = (
-				981668DB1C7BB84D00305441 /* en */,
-			);
-			name = Info.plist;
 			sourceTree = "<group>";
 		};
 		981668E21C7BB96A00305441 /* Localizable.strings */ = {
