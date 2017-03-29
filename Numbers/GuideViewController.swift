@@ -18,10 +18,10 @@ class GuideViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         let url = "Numbers Manual"
-        if let htmlFile = NSBundle.mainBundle().pathForResource(url, ofType: "html") {
-            if let htmlData = NSData(contentsOfFile: htmlFile) {
-                let baseUrl = NSURL(fileURLWithPath: NSBundle.mainBundle().bundlePath)
-                webView.loadData(htmlData, MIMEType: "text/html", textEncodingName: "UTF-8", baseURL: baseUrl)
+        if let htmlFile = Bundle.main.path(forResource: url, ofType: "html") {
+            if let htmlData = try? Data(contentsOf: URL(fileURLWithPath: htmlFile)) {
+                let baseUrl = URL(fileURLWithPath: Bundle.main.bundlePath)
+                webView.load(htmlData, mimeType: "text/html", textEncodingName: "UTF-8", baseURL: baseUrl)
             }
         }
     }

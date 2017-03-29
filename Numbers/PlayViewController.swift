@@ -31,7 +31,7 @@ class PlayViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         random = randomize()
         chanceLabel.text = String(chance)
-        restartButton.enabled = false
+        restartButton.isEnabled = false
     }
 
     override func didReceiveMemoryWarning() {
@@ -53,8 +53,8 @@ class PlayViewController: UIViewController {
             if answer == random {
                 // Win
                 statusLabel.text = NSLocalizedString("BINGO", comment: "Bingo!!! You won with number ") + " \(random)"
-                testButton.enabled = false
-                restartButton.enabled = true
+                testButton.isEnabled = false
+                restartButton.isEnabled = true
                 print("Game win")
             } else if answer > random {
                 // Too high
@@ -76,8 +76,8 @@ class PlayViewController: UIViewController {
             // Game end
             print("Game end")
             statusLabel.text = NSLocalizedString("LOSE", comment: "No more chance, you have lost. The number is ") + " \(random)"
-            testButton.enabled = false
-            restartButton.enabled = true
+            testButton.isEnabled = false
+            restartButton.isEnabled = true
             break
         }
     }
@@ -87,8 +87,8 @@ class PlayViewController: UIViewController {
         print("Restart the game")
         random = randomize()
         // Resetting all the values
-        restartButton.enabled = false
-        testButton.enabled = true
+        restartButton.isEnabled = false
+        testButton.isEnabled = true
         firstStepperValue.value = 0
         secondStepperValue.value = 0
         first = Int(firstStepperValue.value)
